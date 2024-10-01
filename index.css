@@ -182,3 +182,6 @@ nav .action .contactus:hover{
     padding-bottom: 5px;
     color: #252525;
 }
+.cards .card .card-img .card-title .card-des h5{
+    max-width: 200px;
+}
