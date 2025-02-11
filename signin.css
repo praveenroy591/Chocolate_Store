@@ -1,0 +1,111 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Full-page background */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('delicious-chocolate-arrangement-copy-space.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+/* Form container with Glassmorphism */
+.form-container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    color: #222;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #222;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin-top: 12px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+}
+
+/* Input Fields */
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #007bff;
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(1.02);
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #6610f2, #007bff);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Sign-up Link */
+.signup-link {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #444;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
